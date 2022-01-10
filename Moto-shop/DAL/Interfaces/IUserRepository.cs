@@ -6,6 +6,7 @@ namespace Moto_shop.DAL
     {
         User RegisterUser(User user);
         User CheckPassword(string email, string password);
+        User GetUserById(int id);
 
     }
 }
