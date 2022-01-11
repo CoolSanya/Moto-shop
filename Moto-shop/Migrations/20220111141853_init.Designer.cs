@@ -11,8 +11,8 @@ using Moto_shop.DAL;
 namespace Moto_shop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220110183440_Add auth (login, register)")]
-    partial class Addauthloginregister
+    [Migration("20220111141853_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

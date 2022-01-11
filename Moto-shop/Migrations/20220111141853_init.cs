@@ -4,7 +4,7 @@
 
 namespace Moto_shop.Migrations
 {
-    public partial class Addauthloginregister : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
